@@ -1,0 +1,15 @@
+.banner{
+    height: 10vh;
+    width: calc(100vw - 10vh);
+    background-color: green;
+    border-color: green;
+    border-style: solid;
+    border-radius: 2px;
+}
+.inner{ height: 3vh;
+width:calc(100vw - 3vh );
+margin: 20px 0% 15px 0%;
+background-color: white;
+font-size:20px;
+padding: 0px 0px 2px 2px;}
+span{text-transform: uppercase;}

@@ -1,0 +1,48 @@
+body{background-color:  rgb(241, 219, 219);}
+#div1{ 
+    background-color:white;
+    width: 70vw;
+    box-shadow: 0 5px 10px 15px rgb(247, 226, 226);
+    height: 80vh;
+    margin: 0 auto;
+    border:  white;
+    border-radius: 10px;
+    border-style: solid;
+    
+    
+ 
+
+    
+}
+img{  width: 25%;
+  height: 25%;
+  object-position: center-top;
+  border-radius: 50%;
+  border-color: rgb(241, 219, 219);
+  border-style: solid;
+  box-shadow: 0 5px 10px 5px rgb(241, 219, 219) ;
+  margin: 0 35% 0 35%;
+  margin-bottom: 3%;
+}
+
+form input{
+padding: auto;
+  border:3px solid rgb(88, 88, 226);
+ margin: auto;
+ font-size: 100%;
+ width:70%;
+ display: block;
+ margin-bottom: 5px;
+ height:10vh;
+ border-radius: 50px;
+}
+form label{
+font-size:smaller;
+text-align: justify;
+padding-left: 6%;
+
+}
+
+
+  
+

@@ -1,0 +1,9 @@
+div{
+width: auto;
+height: auto;
+margin: auto;
+display: flex;
+box-shadow: 0 5px 10px white;
+border-color: bisque;
+border-style: solid;
+}

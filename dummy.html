@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{margin: 0;
+        padding: 0;
+    box-sizing: border-box;}
+    /* we judt overrode the default settings*/
+        .inner{width: 50%;
+        height: 40%;
+    background-color: gold;
+font-size: 2em;}
+    /*if the outter property isnt declared, 
+    inner relative values wont have effect*/
+    .outter{
+        text-transform: lowercase;
+        text-decoration: none;
+        line-height: -5px;
+        letter-spacing: -1px;
+        font-size: 32px;
+        width: 50vw;
+        height:calc( 100vh - 5vh);
+        margin: auto;
+        background-color: aliceblue;
+    }
+    header{width: 100vw;
+    height: 5vh;
+box-shadow: 5px 5px 10px 5px wheat;
+border-radius: 5px;
+border-style: solid;
+border-color: white;}
+.lineheight{  line-height: 20px;
+font-size: small;
+text-transform: capitalize;}
+    </style>
+</head>
+<body>
+    <header></header>
+    <br><br>
+   <div class="outter">
+       <p > HELLO</p> <div class="inner">
+<p class="lineheight">Lorem ipsum dolor, sit amet consectetur
+     adipisicing elit. Cumque laborum pariat
+    ur libero? Repellendus maiores iure laudantium quidem suscipit 
+    tempora. Tempore repellat est fugiat corrupti culpa commodi 
+    ducimus dolor vitae autem.</p>
+        <p> HELLO</p>
+        <p style="font-size: 1rem;">HELLO</p>
+       </div> 
+       
+    </div> 
+</body>
+</html>

@@ -1,0 +1,10 @@
+div p{font-family: 'Courier New', Courier, monospace;
+color: brown;}
+div > p{ color: blueviolet;}
+/*#div p{font-family: 'Courier New', Courier, monospace;
+    color: brown;}*/
+    p::first-letter
+    {font-weight: bolder;
+    color: green;}
+        p::first-line{color: blue;
+            font-weight: bolder;}
